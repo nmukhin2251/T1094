@@ -1,0 +1,33 @@
+<div class="ms-Grid" title="spaf_000040000main" params="'InternalName':'spaf_000040000main','namespace':'task'">
+    <div class="ms-Grid-row">
+        <div class="ms-u-lg12 ms-u-md12 ms-u-sm12 ms-Grid-col">
+            <component-textbox id="1525457016893" params="'name':'','namespace':'task','promoted':true,'InternalName':'Title','Title':'Task Name','Description':'description from sharepoint','MaxLength':255,'DefaultValue':null,'FieldTypeKind':2,'ReadOnlyField':false,'Required':true"
+            class=""></component-textbox>
+            <component-filebox id="1525457016894" params="'name':'','namespace':'task','promoted':true,'Filter':'','PreviewAttachments':true,'InternalName':'Attachments','Title':'Attachments','AllowMultipleValues':false,'Description':'','ReadOnlyField':false,'FieldTypeKind':19,'Required':false"
+            class=""></component-filebox>
+            <component-textbox id="1525457016895" params="'name':'','namespace':'task','promoted':false,'InternalName':'spaf_1525456856225','Title':'HELLO','Description':'','MaxLength':100,'DefaultValue':'','FieldTypeKind':2,'ReadOnlyField':false,'Required':false"
+            class=""></component-textbox>
+            <component-textbox id="1525457016902" params="'name':'','namespace':'task','promoted':true,'InternalName':'spaf_1525456894560','Title':'PROMOTEDTEXT','Description':'','MaxLength':100,'DefaultValue':'','FieldTypeKind':2,'ReadOnlyField':false,'Required':true"></component-textbox>
+        </div>
+        <div class="ms-u-md4 ms-u-sm4 ms-u-lg3 ms-Grid-col ui-sortable">
+            <component-transition_save title="spaf_000050000save" params="'namespace':'task','InternalName':'spaf_000050000save','componentId':'transition_save','visible':true,'Title':'Save','from':'spaf_000010newform','to':'spaf_00001000draft','closeonclick':false,'emailNotofication':false,'logHistory':'','stateComponentId':'spaf_000040000main'"
+            id="1525457016897" class=""></component-transition_save>
+            <component-transition_save title="spaf_0000500update" params="'namespace':'task','InternalName':'spaf_0000500update','componentId':'transition_save','visible':true,'Title':'Update','from':'spaf_00001000draft','to':'spaf_00001000draft','closeonclick':false,'stateComponentId':'spaf_000040000main'"
+            id="1525457016898" class=""></component-transition_save>
+        </div>
+        <div class="ms-u-md4 ms-u-sm4 ms-u-lg3 ms-Grid-col ui-sortable">
+            <component-transition_delete title="spaf_0000500delete" params="'namespace':'task','InternalName':'spaf_0000500delete','componentId':'transition_delete','visible':true,'Title':'Delete','from':'spaf_00001000draft','to':'spaf_000010newform','closeonclick':false,'stateComponentId':'spaf_000040000main'"
+            id="1525457016899" class=""></component-transition_delete>
+        </div>
+        <div class="ms-u-md4 ms-u-sm4 ms-u-lg3 ms-Grid-col ui-sortable">
+            <component-transition_close title="spaf_00005000close" params="'namespace':'task','InternalName':'spaf_00005000close','componentId':'transition_close','visible':true,'Title':'Close','from':'*','to':'*','closeonclick':false,'stateComponentId':'spaf_000040000main'"
+            id="1525457016900" class=""></component-transition_close>
+        </div>
+        <div class="ms-u-md4 ms-u-sm4 ms-u-lg3 ms-Grid-col ui-sortable">
+            <component-transition_save title="spaf_1525454802347" params="'namespace':'task','InternalName':'spaf_1525454802347','componentId':'transition_save','visible':true,'Title':'Submit','from':'spaf_00001000draft','to':'spaf_1525454785296','closeonclick':false,'emailNotification':true,'logHistory':'submit','stateComponentId':'spaf_000040000main'"></component-transition_save>
+        </div>
+        <div class="ms-u-md4 ms-u-sm4 ms-u-lg3 ms-Grid-col">
+            <component-transition_save title="spaf_1525495720866" params="'namespace':'task','InternalName':'spaf_1525495720866','componentId':'transition_save','visible':true,'Title':'Submit','from':'spaf_000010newform','to':'spaf_1525454785296','closeonclick':false,'emailNotification':true,'logHistory':'','stateComponentId':'spaf_000040000main'"></component-transition_save>
+        </div>
+    </div>
+</div>

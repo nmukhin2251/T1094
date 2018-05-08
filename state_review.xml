@@ -1,0 +1,28 @@
+<div class="ms-Grid" title="spaf_000040000main" params="'namespace':'state_review'" style="border:5px; border-color:#0078d7; border-style:solid; padding:5px; padding-top:0px;">
+    <div class="ms-Grid-row">
+        <div class="ms-u-md12 ms-u-sm12 ms-Grid-col ms-u-lg12" style="background-color:#0078d7; color:white; padding-bottom: 5px;"> <b>
+				<div><span data-bind="text: stName">Review</span></div>
+			</b> </div>
+    </div>
+    <div class="ms-Grid-row">
+        <div class="ms-u-lg12 ms-u-md12 ms-u-sm12 ms-Grid-col">
+            <p>Lorem ipsum dolores</p>
+            <component-textbox id="1525456281428" params="'name':'','namespace':'state_review','promoted':true,'InternalName':'OData__ModerationComments','Title':'Moderation Comments','Description':'','MaxLength':100,'DefaultValue':'','FieldTypeKind':2,'ReadOnlyField':false,'Required':true"></component-textbox>
+        </div>
+    </div>
+    <div class="ms-Grid-row">
+        <div class="ms-u-lg12 ms-u-md12 ms-u-sm12 ms-Grid-col"> </div>
+        <div class="ms-u-md4 ms-u-sm4 ms-u-lg3 ms-Grid-col">
+            <component-transition_save title="spaf_1525454818978" params="'namespace':'state_review','InternalName':'spaf_1525454818978','componentId':'transition_save','visible':true,'Title':'Approve','from':'spaf_1525454785296','to':'spaf_00001complete','closeonclick':false,'emailNotification':false,'logHistory':'','stateComponentId':'state_review'"
+            id="1525456281410" class=""></component-transition_save>
+        </div>
+        <div class="ms-u-md4 ms-u-sm4 ms-u-lg3 ms-Grid-col ui-sortable">
+            <component-transition_save title="spaf_1525454833484" params="'namespace':'state_review','InternalName':'spaf_1525454833484','componentId':'transition_save','visible':true,'Title':'REject','from':'spaf_1525454785296','to':'spaf_00001rejected','closeonclick':false,'emailNotification':false,'logHistory':'','stateComponentId':'state_review'"
+            id="1525456281411" class=""></component-transition_save>
+        </div>
+        <div class="ms-u-md4 ms-u-sm4 ms-u-lg3 ms-Grid-col ui-sortable">
+            <component-transition_close title="spaf_1525454845131" params="'namespace':'state_review','InternalName':'spaf_1525454845131','componentId':'transition_close','visible':true,'Title':'Close','from':'*','to':'*','closeonclick':false,'stateComponentId':'state_review'"
+            id="1525456281412" class=""></component-transition_close>
+        </div>
+    </div>
+</div>
