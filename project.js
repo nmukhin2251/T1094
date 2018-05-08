@@ -1,6 +1,6 @@
 define([], function( ) { return  JSON.stringify(
 {
-	"localVersion": 1525585851755,
+	"localVersion": 1525790886620,
 	"listProductVersion": "1.0.9.4",
 	"components": [
 		{
